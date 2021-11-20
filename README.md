@@ -1,2 +1,2 @@
 # lucky-birthday2
- is your birthday lucky
+ is your birthday lucky?
