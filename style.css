@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
-    background-color: #D1D5DB;
     font-family: 'Poppins', sans-serif;
     margin: 0;padding: 0;
 }
@@ -11,36 +10,45 @@
 }
 h1{
     text-align: center;
-    margin: 1rem;
-    text-shadow: 4px 1px 2px rgba(0,0,0,0.23);
+    margin: 1rem;;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
 }
 input,label{
     display: block;
     width: 100%;
+    height: 2rem;
     font-size:1rem;
     font-weight: bold;
+    color: blue;
+    margin: auto;
+    
 }
 input{
     margin-bottom: 0.6rem;
-    font-weight: bold
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0.5rem;
 }
 #checkBtn{
-    border: 1px solid black;
     width: 9rem;
     text-align: center;
     border-radius: 0.3rem;
     display: block;
     margin: auto;
     cursor: pointer;
-    box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.23);
+    box-shadow: 2px 4px 16px -2px rgba(29, 7, 231, 0.404);
 }
 #outputarea{
     text-align: center;
+    color: blue;
     margin-top: 1rem;
     font-weight: bold;
     font-size: 1.3rem ;
-    text-shadow: 4px 1px 2px rgba(0,0,0,0.23);
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.23);
 }
-##checkBtn:hover{
-    text-shadow: 4px 1px 2px rgba(0,0,0,0.23);
+#checkBtn:hover{
+    border: 1px solid blue;
+    display: block;
 }
