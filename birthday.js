@@ -12,12 +12,14 @@ function letsCompare (sum,luckyNumber){
 }
 
 function checkBirthday (){
+  if(luckyNumber.value > 0){
     const dob = dateOfBirth.value;
     const sum = sumOfDate(dob);
     if(dob&&luckyNumber)
     letsCompare(sum,luckyNumber.value)
-    else
-    outputBox.innerHTML="Your need to enter both the values"
+  }else{
+    outputBox.innerText="Please enter a valid input"
+  }
 }
 function sumOfDate(dob){ 
     dob= dob.replaceAll("-","");
